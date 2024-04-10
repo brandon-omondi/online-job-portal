@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import chefImage from './assets/chef.jpg';
 import Glogo from './assets/glogo.png';
-import { auth, provider } from './firebase.config';
+import { auth, provider } from './firebase1.js';
 import { signInWithPopup } from 'firebase/auth';
 import App from './App.jsx';
 

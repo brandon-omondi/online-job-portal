@@ -5,7 +5,7 @@ import JobCard from "./components/JobCard"
 // import jobData from "./JobDummyData"
 import { useEffect, useState } from "react"
 import { collection, query, orderBy, where, getDocs } from "firebase/firestore";
-import {db} from "./firebase.config"
+import {db} from "./firebase1"
 
 function App() {
   const [jobs, setJobs] = useState([]);
